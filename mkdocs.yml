@@ -98,7 +98,7 @@ markdown_extensions:
 # Page tree
 nav:
   - index.md
-  - ⚙️ Connection: 
+  - Connection Setup: 
     - connection/index.md
 
   - ⚙️ Settings: 
