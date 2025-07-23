@@ -1,1 +1,2 @@
-# AGRICAM_Docs
+# AGRICAM-DOCS
+ Documentation and user guide for AGRICAM

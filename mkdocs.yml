@@ -1,0 +1,118 @@
+site_name: AGRICAM Docs
+site_url: https://mydomain.org/mysite
+site_author: Malika Nisal Ratnayake
+site_description: >-
+  AGRICAM
+  - Documentation and Assembly Instructions.
+
+# Repository
+repo_name: AGRICAM Docs
+repo_url: https://github.com/malikaratnayake/AGRICAM-DOCS
+edit_uri: ""
+
+# Copyright
+copyright: Copyright &copy; 2025 Malika Nisal Ratnayake
+# Configuration
+
+theme:
+  name: material
+  language: en
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - header.autohide
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - toc.follow
+  font:
+    text: 'Roboto'
+    code: 'Roboto Mono'
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/DAIMS_LOGO_mini_inv.png
+  
+  favicon: assets/DAIMS_LOGO_mini.png
+
+  palette: 
+    - scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/lightbulb
+        name: Switch to light mode
+    - scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+
+# Plugins
+plugins:
+  - search:
+
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/malikaratnayake
+    #- icon: fontawesome/brands/orcid
+    #  link: https://orcid.org/0000-0002-4096-8556
+    #- icon: fontawesome/brands/researchgate
+    #  link: https://researchgate.net/profile/Maximilian-Sittinger
+    - icon: fontawesome/regular/envelope
+      link: mailto:malika.ratnayake@monash.edu
+  annotate:
+    json: [.s2]
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Anchor link to this section
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
+
+# Page tree
+nav:
+  - index.md
+
+
+  - ⚙️ AGRICAM Settings: 
+    - AGRICAM_settings/index.md
+    - Track Stations: AGRICAM_settings/track_stations.md
+    - Monitoring Schedule: AGRICAM_settings/monitoring_schedule.md
+    - Advanced Settings: AGRICAM_settings/advanced_settings.md
+
+  - 🎮 AGRICAM Control: 
+    - control/index.md
+
+  - 📝 AGRICAM Status:
+    - status/index.md
+    - LED Indicators: status/led_indicators.md
+    - Overview: status/status_overview.md
+    - Map: status/status_map.md
+
+
