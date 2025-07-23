@@ -34,9 +34,9 @@ theme:
     code: 'Roboto Mono'
   icon:
     repo: fontawesome/brands/github
-  logo: assets/DAIMS_LOGO_mini_inv.png
+  logo: assets/AGRICAM_LOGO.jpg
   
-  favicon: assets/DAIMS_LOGO_mini.png
+  favicon: assets/AGRICAM_LOGO.jpg
 
   palette: 
     - scheme: slate
@@ -98,18 +98,19 @@ markdown_extensions:
 # Page tree
 nav:
   - index.md
+  - ⚙️ Connection: 
+    - connection/index.md
 
-
-  - ⚙️ AGRICAM Settings: 
+  - ⚙️ Settings: 
     - AGRICAM_settings/index.md
     - Track Stations: AGRICAM_settings/track_stations.md
     - Monitoring Schedule: AGRICAM_settings/monitoring_schedule.md
     - Advanced Settings: AGRICAM_settings/advanced_settings.md
 
-  - 🎮 AGRICAM Control: 
+  - 🎮 Control: 
     - control/index.md
 
-  - 📝 AGRICAM Status:
+  - 📝 Status:
     - status/index.md
     - LED Indicators: status/led_indicators.md
     - Overview: status/status_overview.md
